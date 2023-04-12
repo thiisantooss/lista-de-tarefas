@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background: linear-gradient(19deg, #32EEE4, #935DD7);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    background-color: #00000095;
+    padding: 30px;
+    border-radius: 35px 10px;
+    text-align: center;
+}
+
+.container div input {
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 100px;
+    border: none;
+    outline-color: #838181;
+}
+
+.container div button {
+    background-color: #6e95dc;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.container div button:hover {
+    background-color: #6e95dc00;
+    color: #6e95dc;
+    border: 1px solid #6e95dc;
+    transition: .5s;
+}
+
+.container h1 {
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.container ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.container ul li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+.container p{
+    border-radius: 100px;
+    color: #fff;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #6e95dc;
+    border-radius: 100px;
+    padding: 0.5px 5px;
+}
+
+.container a:hover {
+    background-color: #6e95dc00;
+    border: 1px solid #6e95dc;
+    color: #6e95dc;
+    transition: .5s;
+}
+
+.feito {
+    text-decoration: line-through;
+}
